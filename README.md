@@ -37,3 +37,7 @@ optimize inventory management and improve operational efficiency for dealerships
 ## 📈 Results
 
 - The model successfully predicts **LAID_UP_TIME** with reasonable accuracy.
+- The Model produces  **Root Mean Squared Error (RMSE)** of (79.9471) for the Training set.
+- The Model is then Evaluated with the Test set to predict the target variable **LAID_UP_TIME** using the same data preprocessing pipeline used during the Model training with the Training set.
+- The Produced  **Root Mean Squared Error (RMSE)** for the Test set was (71).
+- The final  **Root Mean Squared Error (RMSE)**  shows the accuracy of the Model with the new data, that has not been seen before. 
